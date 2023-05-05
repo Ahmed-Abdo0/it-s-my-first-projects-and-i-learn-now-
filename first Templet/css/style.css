@@ -1,0 +1,85 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+  @media (min-width: 767){
+    .container{
+        min-width: 375px;
+
+    }
+}
+
+@media (min-width : 991px )and (min-width : 1200px) {
+    .container {
+        width: 1440px;
+
+        
+    }
+}
+
+*{
+    font-family: 'Outfit', sans-serif;
+}
+.container {
+    background-color: hsl(212, 45%, 89%);
+    background-image: url();
+    background-size: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    
+}
+@media (max-width:767px) {
+    .container {
+    max-width: 375px;
+    max-height: 108vh;
+    }
+}
+.container .Warpper {
+background-color: hsl(0, 0%, 100%);
+height: 85%;
+max-width: 85%;
+margin-top: 40px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+border-radius: 30px;
+border: 20px solid  hsl(0, 0%, 100%);
+}
+.container .Warpper .img-code {
+    border-radius: 30px;
+    min-width: 100%;
+}
+.container .Warpper .img-code img {
+    border-radius: 25px;
+    min-width: 100%;
+}
+@media (max-width:767px) {
+    .container .Warpper .img-code img {
+    border-radius: 25px;
+    min-width: 100%;
+    width: calc(100% - 375px);
+    margin-top: 40px;
+    }
+    .container .Warpper{
+        height: 65%;
+
+    }
+}
+.container .Warpper .pargraph {
+    margin-top: 2%;
+
+}
+
+.container .Warpper .pargraph h2 {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+.container .Warpper .pargraph h2 span {
+text-align: center;
+}
+.container .Warpper .pargraph p {
+   color:  hsl(220, 15%, 55%);
+   font-weight: 400;
+}
